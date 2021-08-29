@@ -1,0 +1,24 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API para cadastro de candidatos para vagas no JobsNet",
+        "description": "Está api tem como objetivo realizar cadastro de candidatos no jobsnet"
+    },
+    "version":"1.0.0",
+    "paths": {
+        "./candidatos": {
+            "post": {
+                "sumary": "Cadastro de candidatos",
+                "description":"Está rota irá cadastrar novos candidatos para vagas"
+            },
+            "get": {
+                "sumary": "Recuperar de candidatos cadastrados",
+                "description":"Está rota irá recuperar candidatos para vagas"
+            },
+            "details": {
+                "sumary": "Recuperar de candidatos cadastrados por id",
+                "description":"Está rota irá recuperar candidatos para vagas por id"
+            }
+        }
+    }
+}
